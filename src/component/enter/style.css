@@ -1,0 +1,42 @@
+
+.holder3{
+   display:flex;
+   font-size: 20px;
+}
+.holder3 .leftSection{
+   width:70%;
+   height: 100vh;
+   background-color: #fff;
+   position:relative;
+   color: #000;
+ 
+}
+.holder3 .leftSection .leftSectionContent{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.holder3 .leftSection .leftSectionContent input{
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 100px;
+}
+.holder3 .rightSection{
+  position:relative;
+   width:30%;
+   height: 100vh;
+   background-color: rgb(12, 12, 12);
+   color: #fff;
+}
+.holder3 .rightSection .logo{
+  direction: rtl;
+  font-size: 50px;
+}
+.holder3 .rightSection .rightSectionContent{
+  position: absolute;
+  top:50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+

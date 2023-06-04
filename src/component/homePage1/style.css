@@ -1,0 +1,185 @@
+ .holder{
+    display:flex;
+ }
+ .holder .leftSection{
+    width:19%;
+    background-color: rgb(18, 18, 18);
+ }
+ .holder .middleSection{
+    width:7px;
+    background-color: rgba(118, 118, 118, 0.793);
+ }
+ .holder .rightSection{
+    width:80%;
+ }
+ .holder .rightSection .menuHolder{
+    padding: 20px 20px;
+    background-color: #1d1d1d;;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.holder .rightSection .menuHolder .menuItemLeft{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+}
+.holder .rightSection .menuHolder .menuItemLeft a:nth-child(2){
+    padding: 5px 20px; 
+    border: 1px solid #fff;
+    background-color: rgb(80, 80, 82);
+}
+.holder .rightSection .backgroundImage{
+    background-image: url(../../../public/assets/images/feature-succession-bg.avif);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    position: relative;
+    margin: 20px;
+}
+.holder .rightSection .backgroundImage .backgroundImageContent{
+    position: absolute;
+    bottom: 100px;
+    left:50px;
+    color:#fff;
+    font-size: 30px;
+}
+.holder .rightSection .movielist{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.holder .rightSection .movielist li{
+    width: 16.66%;
+    padding: 20px;
+}
+.holder .rightSection .movielist li img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.holder .leftSection .categoriesHolder .logo{
+    font-size: 30px;
+    color:red;
+    text-align: center;
+}
+.holder .leftSection .categories{
+    border-top: 1px solid #fff;
+    color: #fff;
+    padding-left: 10px;
+
+}
+.holder .leftSection .categories .categoriesList1{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+ }
+ .holder .leftSection .categories .categoriesList2{
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+ }
+ .holder .leftSection .categoriesHolder .Genres{
+    color: #fff;
+}
+.holder .leftSection .categoriesHolder .Genres h2{
+    padding-left: 10px;
+}
+.holder .leftSection .categoriesHolder .Genres ul li{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.holder .leftSection .categoriesHolder .Genres img{
+    width: 30px;
+    height:auto;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(64deg) brightness(110%) contrast(101%);
+}
+.holder .leftSection .categoriesHolder .Genres span{
+    font-size: 20px;
+}
+ /* 
+ .content{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    background-color: rgb(0, 43, 231);
+    width: 100%;
+    height: 200px;
+}
+.content p{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color:#fff;
+}
+.contentBackground{
+    width: 100%;
+    height:30px;
+    content:"";
+    background-color: rgb(0, 43, 231);
+    border-radius: 40%;
+    position: absolute;
+    bottom:180px;
+    left:0;
+    
+}
+.genre{
+    background-color: rgb(0, 43, 231);
+}
+.genre ul{
+    display: flex;
+}
+.genre ul li{
+    width: 11.11%;
+    padding:1px;
+}
+.genre ul li .box{
+    background: linear-gradient(90deg, rgba(179,178,187,1) 0%, rgba(0,43,231,0) 98%, rgba(180,180,189,1) 100%);
+}
+.genre ul li img{
+    width: 100%;
+    height: auto;
+}
+.biggestHits{
+    padding-top: 80px;
+    background-image: url(../../../public/assets/images/feature-succession-bg.avif);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.biggestHits::after{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 50%);
+    content: '';
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: calc(50% - 50vw);
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+}
+.biggestHits .title, .biggestHits .subtitle{
+    padding-left: 20px;
+}
+.biggestHits ul{
+display: flex;
+
+}
+.biggestHits ul li{
+    width:16.66%;
+    padding:20px;
+}
+.biggestHits ul li img{
+    width:100%;
+} */
